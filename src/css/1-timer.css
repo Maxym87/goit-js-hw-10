@@ -2,3 +2,59 @@ a {
   display: block;
   margin-bottom: 20px;
 }
+
+input[type="text"] {
+ width: 272px;
+ height: 40px;
+ border: 1px solid #808080;
+ border-radius: 4px;
+ color: #2E2F42;
+ padding: 2px;
+ transition: border-color 0.3s ease;
+}
+
+#datetime-picker:hover {
+border-color: #000000;
+}
+
+#datetime-picker:active{
+outline: none;
+  border-color: #4E75FF;
+}
+
+#datetime-picker:disabled {
+  background-color: #FAFAFA;
+    border-color: #808080;
+    color: #808080;
+}
+
+button {
+  width: 75px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4E75FF;
+  columns: #FFFFFF;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+y
+button:hover{
+  background-color: #6C8CFF;
+}
+
+button:disabled {
+  background-color: #6C8CFF;
+}
+
+.timer{
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+}
+.timer.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
