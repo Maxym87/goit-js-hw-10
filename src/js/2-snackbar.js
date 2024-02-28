@@ -1,6 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import successSvg from '../img/success.svg';
+import cross from '../img/cross.svg';
 
 const form = document.querySelector('.form');
 const input = document.querySelector('input');
@@ -50,7 +51,7 @@ form.addEventListener('submit', event => {
         titleColor: '#FFF',
         messageColor: '#FFF',
         backgroundColor: '#FF544B',
-        message: `❌ Rejected promise in ${delay}ms`,
+        message: `Rejected promise in ${delay}ms`,
       });
     });
 });
