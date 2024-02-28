@@ -2,10 +2,7 @@ a {
   display: block;
   margin-bottom: 20px;
 }
-section {
-  width: 400px;
 
-}
 
 input[type="text"] {
  width: 272px;
@@ -14,7 +11,7 @@ input[type="text"] {
  border: 1px solid #808080;
  border-radius: 4px;
  color: #2E2F42;
- padding-left: 10px;
+ padding-left: 5px;
  transition: border-color 0.3s ease;
 }
 
@@ -44,7 +41,7 @@ button {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 y
-button:hover{
+button :hover{
   background-color: #6C8CFF;
 }
 
