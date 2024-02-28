@@ -72,10 +72,10 @@ startBtn.addEventListener('click', () => {
 
     if (delta >= 0) {
       let timeObj = convertMs(delta);
-      days.textContent = addLeadingZero(timeObj.days);
-      hours.textContent = addLeadingZero(timeObj.hours);
-      minutes.textContent = addLeadingZero(timeObj.minutes);
-      seconds.textContent = addLeadingZero(timeObj.seconds);
+      daysValue.textContent = addLeadingZero(timeObj.days);
+      hoursValue.textContent = addLeadingZero(timeObj.hours);
+      minutesValue.textContent = addLeadingZero(timeObj.minutes);
+      secondsValue.textContent = addLeadingZero(timeObj.seconds);
     } else {
       clearInterval(timerInterval);
       startBtn.disabled = false;
